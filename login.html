@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="description" content="">
+        <meta property="og:title" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="/assets/images/thumbnail.jpg">
+        <meta property="og:description" content="">
+        <meta name="format-detection" content="telephone=no">
+        <title>HappyGolf</title>
+        <link href="./assets/images/favicon.ico" rel="icon" type="image/x-icon">
+        <link href="./assets/css/reset.css" rel="stylesheet">
+        <link href="./assets/css/common.css" rel="stylesheet">
+        <link href="./assets/css/layout.css" rel="stylesheet">
+        <script src="./assets/js/jquery-2.2.4.min.js"></script>
+        <script src="./assets/js/common.js"></script>
+    </head>
+    <body>
+        <div class="login_content">
+            <div class="background_area"></div>
+            <p class="login_title1">HappyGolf</p>
+            <p class="login_title2">Sign in</p>
+            <form action="" class="login_form">
+                <p>회원아이디</p>
+                <div class="input_box">
+                    <label for="input_id">아이디</label>
+                    <input type="text" id="input_id" class="input_txt">
+                </div>
+                <p>비밀번호</p>
+                <div class="input_box">
+                    <label for="input_pw">비밀번호</label>
+                    <input type="text" id="input_pw" class="input_txt">
+                    <div class="sh_pw show_pw" onclick="sh_pw(this)"><img src="./assets/images/icon/hide_pw.svg"></div>
+                    <div class="sh_pw hide_pw" onclick="sh_pw(this)"><img src="./assets/images/icon/show_pw.svg"></div>
+                </div>
+                <button class="c_btn">로그인</button>
+            </form>
+        </div>
+    </body>
+</html>

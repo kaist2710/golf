@@ -1,0 +1,61 @@
+/* login */
+.login_content {position: relative; padding: 0 50px; }
+.background_area {position: absolute; z-index: -1; width: 75.897vw; height: 92.051vw; top: 50px; left: 18.462vw; background: url('../images/images/login.png') no-repeat; background-size: contain;}
+.login_title1 {padding-top: 40.769vw; font-size: 8.974vw; color: #22215B; font-weight: bold;}
+.login_title1 {font-size: 8.974vw; color: #22215B; font-weight: bold;}
+.login_title2 {font-size: 18.974vw; color: #22215B; font-weight: bold;}
+.login_form {margin-top: 26vw}
+.login_form > p {font-size: 14px; color: #888; margin-bottom: 10px; margin-top: 32px;}
+.login_form > button {margin-top: 45px;}
+
+/* calender */
+.calender {margin-top: 36px;}
+.custom_calendar_table {width: 100%;}
+.custom_calendar_table td {text-align: center;}
+.custom_calendar_table thead.cal_date th {}
+.custom_calendar_table thead.cal_date th button {background: none;}
+.custom_calendar_table thead.cal_week tr {margin-top: 20px;}
+.custom_calendar_table thead.cal_week th {color: #8F9BB3; padding-top: 23px; font-size: 13px; font-style: italic;}
+.custom_calendar_table tbody td {cursor: pointer;}
+.custom_calendar_table tbody td:nth-child(1) {color: red;}
+.custom_calendar_table tbody td:nth-child(7) {color: #288CFF;}
+.custom_calendar_table tbody td.select_day span {padding: 5px 10px 5px 7px;  background-color: #735BF2; color: #fff; border-radius: 12px;}
+.custom_calendar_table .prev, .custom_calendar_table .next  {border: 1px solid #CED3DE; border-radius: 7px; padding: 10px 13px;}
+.custom_calendar_table .calen_month {font-size: 20px; font-style: italic; font-weight: bold;}
+.custom_calendar_table .calen_year {font-size: 12px; font-style: italic; color: #8F9BB3; margin-top: 5px;}
+.custom_calendar_table .calen_days {height: 52px; font-size: 15px; font-style:italic; width: calc(100% / 7);}
+.custom_calendar_table .calen_days span {position: relative;}
+.custom_calendar_table .calen_days span::after {content:''; display: block; clear:both; width: 5px; height: 5px; background-size: cover; position: absolute; bottom: -8px; left: 3px; }
+.custom_calendar_table .calen_days.select_day span::after {content:''; display: block; clear:both; width: 5px; height: 5px; background-size: cover; position: absolute; bottom: -8px; left: 11px; }
+.custom_calendar_table .calen_days .personal_trainning::after {background: url('../images/icon/calen_personal.svg') no-repeat;}
+.custom_calendar_table .calen_days .pro_trainning::after {background: url('../images/icon/calen_pro.svg') no-repeat;}
+
+
+/* 달력과 리스트 중간 영역 */
+.main_middle {margin: 20px 0; text-align: center;}
+
+/* List */
+.list_container {width: 100%; height: calc(100% - 575px); overflow-y: scroll;}
+
+/* footer */
+footer {width: 100%; position: absolute; bottom: 0; height: 120px;}
+.footer_background {position: absolute; bottom: 0; left: 0; z-index: -1; width: 100%; height: 120px;}
+.footer_background img {width: 100%; height: 100%;}
+footer .add_device_btn {width: 100%; display: flex; justify-content: center; margin-top: 20px;}
+footer .add_device_btn span {display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; background: #735BF2; border-radius: 50%;}
+footer .add_device_btn span img {width: 20px; height: 20px;}
+footer ul {display: flex;}
+footer ul li {flex-grow: 1; text-align: center;}
+
+
+
+/* popup */
+.popup {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; z-index: 2; display: none;}
+
+/* popup_2btn */
+.popup_2btn {width: calc(100% - 70px); height: 264px; display: flex; flex-direction: row; justify-content: center; align-items: center;}
+.popup_2btn > div {width: calc(50% - 9px); height: 264px; background: #fff; border-radius: 20px;}
+.popup_2btn > div + div {margin-left: 18px;}
+.popup_2btn > div > div {width: 100%; height: 80%; display: flex; justify-content: center; align-items: center;}
+.popup_2btn .change_place p {font-size: 18px; text-align: center; color: #00B383;}
+.popup_2btn .change_time p {font-size: 18px; text-align: center; color: #0095FF;}
