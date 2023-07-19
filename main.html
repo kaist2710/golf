@@ -15,10 +15,12 @@
         <link href="./assets/css/reset.css" rel="stylesheet">
         <link href="./assets/css/common.css" rel="stylesheet">
         <link href="./assets/css/layout.css" rel="stylesheet">
+        <link href="./assets/css/date_picker.css" rel="stylesheet">
         <script src="./assets/js/jquery-2.2.4.min.js"></script>
         <script src="./assets/js/common.js"></script>
         <script src="./assets/js/calender.js"></script>
         <script src="./assets/js/popup.js"></script>
+        <script src="./assets/js/timePicker.js"></script>
     </head>
     <body>
         <div class="calender" id="calendarForm">
@@ -107,8 +109,20 @@
             </ul>
         </div>
         <div class="popup">
-            <div class="popup_playroom">
-                <div></div>>
+            <div class="popup_time basket-time">
+                <p class="popup_header">
+                    <span onclick="popup_back()"><img src="./assets/images/icon/arrow-left.png"></span>
+                    예약일시
+                </p>
+                <div class="basket-time-area">
+                    <div class="date-selector">
+                        <div class="year" id="year1"></div>
+                        <div class="month" id="month1"></div>
+                        <div class="day" id="day1"></div>
+                        <div class="hour" id="hour1"></div>
+                        <div class="minute" id="minute1"></div>
+                    </div>
+                </div>
             </div>
         </div>
         <footer>

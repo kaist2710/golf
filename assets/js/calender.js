@@ -100,7 +100,7 @@ function calendarMaker(target, date) {
             $(".custom_calendar_table .select_day").removeClass("select_day");
             $(this).removeClass("select_day").addClass("select_day");
             var day = $(this).text();
-            popup("popup_2btn",day);
+            popup("popup_2btn", day);
         });
     }
 
