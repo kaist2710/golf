@@ -15,7 +15,6 @@ $(function(){
         list_height();
     }).resize();
 
-    timePickerStart();
 });
 
 //패스워드 보기/감추기
