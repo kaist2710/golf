@@ -48,7 +48,7 @@ var popup_html = {
                 +                 '<span class="reserv_possible">예약가능</span>'
                 +                 '<span class="reserv_complete">예약완료</span>'
                 +             '</p>'
-                +             '<button class="c_btn">확인 후 시간변경</button>'
+                +             '<button class="c_btn" onclick="popup(\'popup_playtime\', \'' + date + '\' )">확인 후 시간변경</button>'
                 +             '<button class="c_btn" onclick="set_playroom(\'' + date + '\')">확인</button>'
                 +         '</div>'
                 +     '</div>';
@@ -61,7 +61,7 @@ var popup_html = {
                 +                '시간변경'
                 +            '</p>'
                 +            '<div class="popup_body">'
-                +                '<ul class="choice_playtime">';
+                +                '<ul class="choice_playtime">'
                 +                    '<li onclick="choice_playtime(this)" id="playtime_00" class="reserv_possible">00:00</li>'
                 +                    '<li onclick="choice_playtime(this)" id="playtime_01" class="reserv_possible">01:00</li>'
                 +                    '<li onclick="choice_playtime(this)" id="playtime_02" class="reserv_possible">02:00</li>'
@@ -91,6 +91,7 @@ var popup_html = {
                 +                    '<span class="reserv_possible">예약가능</span>'
                 +                    '<span class="reserv_complete">예약완료</span>'
                 +                '</p>'
+                +                '<button class="c_btn"  onclick="popup(\'popup_playroom\', \'' + date + '\' )">확인 후 타석변경</button>'
                 +                '<button class="c_btn" onclick="set_playroom(\'' + date + '\')">확인</button>'
                 +            '</div>'
                 +        '</div>';
